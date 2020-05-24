@@ -33,7 +33,7 @@ function isLeaf(node: BoosterNode | BoosterLeaf): node is BoosterLeaf {
   return (node as BoosterLeaf).leaf !== undefined;
 }
 
-export class Scorer {
+export default class Scorer {
   model?: XGBoostModel;
   reverseFeatureIndex?: ReverseFeatureIndex;
 
