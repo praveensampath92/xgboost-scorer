@@ -1,6 +1,4 @@
-
 # xgboost-scorer
-A Node.js implementation of XGBoost scoring
 
 **xgboost-scorer** is a scoring function implementation for [XGBoost](https://github.com/dmlc/xgboost) models, for use in a Node.js environment.
 
