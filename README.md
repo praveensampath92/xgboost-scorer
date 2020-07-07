@@ -18,10 +18,10 @@
     // Get the score for an instance by passing a mapping of (feature -> value)
     const score =
 	    await scorer.score({
-		    featureA: 100,
-		    featureB: 0.1,
-		    categoricalFeatureC: 1.0
-		})
+            featureA: 100,
+            featureB: 0.1,
+            categoricalFeatureC: 1.0
+	    })
     scorePromise.then(console.log); // E.g., 0.42
 
 ## Documentation
