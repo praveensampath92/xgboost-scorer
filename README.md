@@ -1,6 +1,6 @@
 # xgboost-scorer
 
-**xgboost-scorer** is a scoring function implementation for [XGBoost](https://github.com/dmlc/xgboost) models, for use in a Node.js environment.
+**xgboost-scorer** is a pure JavaScript scoring function implementation for [XGBoost](https://github.com/dmlc/xgboost) models, for use in a Node.js environment or even in a browser.
 
 **NOTE:**  This implementation is an extremely naive one, that will most likely not work well with large inputs. Also, it doesn't handle all scenarios (currently only works for binary classification, but can be easily extended for other types of tasks). If performance is a big concern, consider using the [xgboost-node](https://github.com/nuanio/xgboost-node) package instead, which is a [Node.js addon](https://nodejs.org/api/addons.html) that invokes the actual XGBoost scoring function. However, you might have to compile the package for your specific platform (e.g., Windows), which could be *a bit of a problem*. So, if you don't care about serving a million QPS, are working with small models and inputs; and want to run in multiple hostile environments (e.g., in the browser), then this package might be of use to you.
 
