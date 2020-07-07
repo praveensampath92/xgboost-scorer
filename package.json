@@ -1,7 +1,7 @@
 {
   "name": "xgboost-scorer",
-  "version": "0.0.3",
-  "description": "A Node.js implementation of XGBoost scoring",
+  "version": "0.0.4",
+  "description": "A pure JavaScript implementation of XGBoost scoring",
   "author": "Praveen Sampath <praveensampath2508@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
